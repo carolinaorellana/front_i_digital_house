@@ -1,0 +1,501 @@
+/*****************ESTILOS GENERALES************************/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+/*Alineamentos FLEX*/
+
+.flex{
+    display: flex;
+}
+
+/*ESTILOS GENERALES de tipografía*/
+h1{
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: -0.035em;
+    color: #232C50;
+}
+
+h2{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 114.6%;
+}
+
+h3{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 114.6%;
+    text-align: center;
+}
+
+h4{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 23px;
+}
+h5{
+    font-size: 12.5px;
+    font-weight: 500;
+    color:#8C8C94;
+}
+
+h6{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 157.1%;
+}
+
+p{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/*ESTILOS GENERALES links*/
+a{
+    text-decoration: none;
+}
+
+/*ESTILOS GENERALES botones*/
+button{
+    height: 44px;
+    border-radius: 22px;
+    border: none;
+    font-size: 13px;
+    font-family:  'Be Vietnam Pro', sans-serif;
+}
+
+.btn-hover-p:hover{
+    cursor: pointer;
+    background-color: rgba(139, 72, 191, 0.7);
+}
+
+.btn-principal{
+    width: 140px;
+}
+
+.btn-purple{
+    background-color:  #8B48BF;
+}
+
+.btn-purple a{
+    color: #FFFFFF;
+}
+
+.btn-shadow{
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+}
+
+.btn-number{
+    width: 70px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+/*********************ESTILOS HEADER*****************************/
+
+header{
+    margin-inline: 165px;
+    justify-content: space-between;
+    align-items: center;
+    height: 174px;
+}
+/*Columna 1*/
+
+header img{
+    height: 25px;
+}
+
+/*Columna 2*/
+
+nav ul li{
+    list-style: none;
+}
+
+nav ul li a{
+    color: #242E52;
+    margin: 0px 28px;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+nav ul li a:hover{
+    color: rgba(36, 46, 82, 0.6);
+}
+
+/*Menu hamburguesa*/
+.hamburguesa{
+    display: none;
+}
+/******************** Estilos  Sección 1******************/
+
+.intro-section{
+    margin:85px 170px 95px 180px;
+    justify-content: space-between;
+    text-align: right;
+}
+
+.intro-section img{
+    width: 540px;
+    height: 461px;
+}
+
+.intro-section div{
+    padding: 31px 0px;
+    width: 450px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:flex-end
+}
+
+/*******************Estilos banner 1******************/
+
+.first-banner{
+    padding: 40px 220px;
+    background-color: #8B48BF;
+    color: #FFFFFF;
+    justify-content: space-between;
+}
+
+.first-banner h2{
+    width: 460px;
+}
+
+.first-banner p{
+    width: 450px;
+}
+
+/******************Estilos section 2 (number)****************/
+
+.number-section{
+    padding: 40px 0px;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #FAFAFA;
+    gap: 24px;
+}
+
+.card-number{
+    width: 553px;
+}
+
+.number-header{
+    align-items: center;
+}
+
+.number-header h4{
+    color:#323851;
+    margin-left: 23px;
+}
+
+.card-number p{
+    margin: 18px 0px 0px 92px;
+    color: #B3B2B7;
+}
+
+/***************Estilos section 3 (best)*****************/
+
+.best-section{
+    margin: 97px 71px 180px 71px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.best-section h3{
+    margin-bottom: 109px;
+    color: #242E53;
+}
+
+.card-profile{
+    background-color: #FAFAFA;
+    position: relative;
+    width: 33%;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 21px 21px 21px;
+}
+
+.card-profile img{
+    position: relative;
+    z-index: 1;
+    top: -35px;
+    flex-direction: column;
+}
+
+.card-profile h4{
+    color:#3F4868;
+    margin: -21px 0px 21px 0px;
+}
+
+.card-profile p{
+    color: #B3B2B7;
+    text-align: center;
+}
+
+.best-section button{
+    margin-top: 45px;
+}
+
+/******************Estilos banner(2)***************/
+
+.second-banner{
+    padding: 64px 220px 64px 165px;
+    background-color: #8B48BF;
+    color: #FFFFFF;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.second-banner h3{
+    width: 400px;
+}
+
+.second-banner button{
+    color: #8B48BF;
+    background-color: #FFFFFF;
+}
+
+/******************Estilos footer*********************/
+
+/*Generales footer*/
+footer{
+    background-color: #1E1E26;
+    padding: 54px 170px 44px 170px;
+    color: #FFFFFF;
+}
+
+/*footer columna 1*/
+.footer-info{
+    justify-content: space-between;
+    height: 130px;
+}
+
+.foot-col-uno{
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.foot-logo{
+    width: 110px;
+}
+
+.footer-rrss{
+    width: 160px;
+    justify-content: space-between;
+}
+
+/*footer columna 2*/
+.foot-col-dos{
+    width: 400px;
+    height: 140px;
+    list-style-type: none;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.foot-col-dos li{
+    width: 50%;
+}
+
+.foot-col-dos li a{
+    color: #FFFFFF;  
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+}
+
+/*footer columna 3*/
+.foot-col-tres{
+    align-items: flex-start;
+}
+
+form{
+    width: 275px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+form input{
+    height: 44px;
+    width: 200px;
+    border-radius: 22px;
+    padding:0px 10px;
+    border: none;
+}
+
+footer button{
+    width: 63px;
+}
+
+/*footer bajada*/
+footer h5{
+    text-align: end;
+}
+
+/*********************************MEDIA QUERIES*****************************/ 
+/*Se diseño desktop first*/
+
+@media screen and (max-width:800px) {
+    /************Header MOVIL*********/
+    header{
+        margin-inline: 55px;
+        justify-content: space-between;
+    }
+    
+    header nav, header button{
+        display: none;
+    }
+    
+    .hamburguesa{
+        display: block;
+    }
+
+    /**********seccion 1 MOVIL*********/
+    .intro-section{
+        margin:40px;
+        flex-direction: column;
+        gap: 100px;
+    }
+
+    .intro-section img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .intro-section div{
+        padding: 0px;
+        width: 100%;
+        flex-direction: column;
+        gap: 28px;
+    }
+
+    /**********banner 1 MOVIL******/
+    .first-banner{
+        padding: 40px;
+        background-color:#3CDDF3;
+        color: #FFFFFF;
+        flex-direction: column;
+        gap: 50px;
+    }
+    
+    .first-banner h2,.first-banner p{
+        width: 100%;
+    }
+
+    /***********seccion 2 MOVIL*********/
+    .number-section{
+        margin: 65px 0px 60px 34px;
+        padding:0px;
+        background-color: #FFFFFF;
+        gap: 20px;
+    }
+
+    .card-number{
+        width: 100%;
+    }
+
+    .number-header{
+        background-color: rgba(139, 72, 191, 0.4);
+        border-radius: 22px 0px 0px 22px;
+    }
+    
+    .card-number p{
+        margin: 21px 18px 0px 0px;
+    }
+
+    /***********section 3 MOVIL*********/
+    .best-section{
+        margin: 0px 18px 45px 18px;
+    }
+
+    .card-profile{
+        width: 100%;
+        padding: 0px;
+    }
+
+    .profile-movil-hide{
+        display: none;
+    }
+
+    /********banner 2 MOVIL*********/
+    .second-banner{
+        padding: 40px 80px;
+        background-color:#3CDDF3;
+        color: #FFFFFF;
+        flex-direction: column;
+        gap: 50px;
+        align-items: center;
+    }
+
+    .second-banner h3{
+        width: 100%;
+    }
+
+    .second-banner button{
+        background: #232C50;
+        box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+        color: #FFFFFF;
+    }
+
+    /*********footer MOVIL*********/
+    footer{
+        padding: 50px;
+    }
+
+    .footer-info{
+        flex-direction: column-reverse;
+        align-items: center;
+        height: auto;
+        gap: 35px;
+        margin-bottom: 25px;
+    }
+    
+    /*footer columna 1*/
+    .foot-col-uno{
+        height: 110px;
+        align-items: center;
+        flex-direction: column-reverse;
+        gap: 25px;
+    }
+
+    .footer-rrss{
+        width: 80vw;
+    }
+    
+    /*footer columna 2*/
+    .foot-col-dos{
+        width: 70vw;
+    }
+    
+    .foot-col-dos li{
+        width: 50%;
+    }
+
+    /*footer columna 3*/
+    .foot-col-tres{
+        align-items: flex-start;
+    }
+    
+    form{
+        width: 80vw;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    form input{
+        width: 310px;
+        margin-right: 10px;
+    }
+
+    /*footer bajada*/
+    footer h5{
+        text-align: center;
+    }
+}
