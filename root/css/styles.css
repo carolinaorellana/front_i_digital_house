@@ -71,6 +71,7 @@ button{
     font-family:  'Be Vietnam Pro', sans-serif;
 }
 
+/*Este se lo aplique a todos los botones moradas, aunque el figma no lo tenía, porque me parecio bonito hacerlo*/
 .btn-hover-p:hover{
     cursor: pointer;
     background-color: rgba(139, 72, 191, 0.7);
@@ -418,7 +419,6 @@ footer h5{
 
     .card-profile{
         width: 100%;
-        padding: 0px;
     }
 
     .profile-movil-hide{
